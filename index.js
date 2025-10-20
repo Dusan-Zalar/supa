@@ -17,7 +17,7 @@ function reqListener(req, res) {
 const { createClient } = require('@supabase/supabase-js');
 // import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = 'https://https://sawufxtvuprvempxvbpd.supabase.co';
+const supabaseUrl = 'https://sawufxtvuprvempxvbpd.supabase.co';
 const supabaseKey = `Public anon key`
 const supabase = createClient(supabaseUrl, supabaseKey)
 
