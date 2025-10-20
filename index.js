@@ -14,8 +14,9 @@ function reqListener(req, res) {
     }
 
 }
+
+import { createClient } from '@supabase/supabase-js';
 const { createClient } = require('@supabase/supabase-js');
-// import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = 'https://sawufxtvuprvempxvbpd.supabase.co';
 const supabaseKey = `Public anon key`
